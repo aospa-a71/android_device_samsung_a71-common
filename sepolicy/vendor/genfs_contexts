@@ -4,6 +4,7 @@ genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.q
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qpnp,qg/power_supply                        u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/soc:12c@13/i2c-3/3-0010/soc:12c@13:qcom,smb1390@10:qcom,charge_pump/power_supply/charge_pump_master           u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/soc/soc:12c@13/i2c-3/3-0010/soc:12c@13:qcom,smb1390@10:qcom,charge_pump/power_supply                              u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/soc:battery/power_supply/ac/voltage_max                                                                       u:object_r:sysfs_batteryinfo:s0
 
 # Camera
 genfscon sysfs /devices/virtual/camera/                                                            u:object_r:sysfs_camera:s0
